@@ -3,7 +3,7 @@
   "displayName": "Go Live Pages",
   "description": "Servidor de desarrollo con Go para renderizado dinámico de templates HTML y WebSockets",
   "version": "1.0.0",
-  "publisher": "mmabitec",
+  "publisher": "MoisessantosHernandez",
   "author": {
     "name": "mmabitec",
     "email": "moises.santos.hernandez@proton.me",
