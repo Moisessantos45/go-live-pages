@@ -1,0 +1,4 @@
+node_modules
+.vscode/
+src/go-server/
+go-live-pages-1.0.0.vsix

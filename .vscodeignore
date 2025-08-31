@@ -1,0 +1,18 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.yarnrc
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/eslint.config.mjs
+**/*.map
+**/*.ts
+**/.vscode-test.*
+
+# ¡IMPORTANTE! Ahora usar patrones de negación (!) para INCLUIR lo esencial
+!out/**/*.js        # Incluir archivos JS compilados
+!src/go-server/live-server-* # ⬅️ INCLUIR los binarios de Go
+!src/go-server/live-server.exe # ⬅️ INCLUIR el binario de Windows
+!images/**/*.png
+!readme.md
+!changelog.md

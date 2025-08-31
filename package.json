@@ -1,0 +1,71 @@
+{
+  "name": "go-live-pages",
+  "displayName": "Go Live Pages",
+  "description": "Servidor de desarrollo con Go para renderizado dinámico de templates HTML y WebSockets",
+  "version": "1.0.0",
+  "publisher": "mmabitec",
+  "author": {
+    "name": "mmabitec",
+    "email": "moises.santos.hernandez@proton.me",
+    "url": "https://github.com/Moisessantos45/go-live-pages"
+  },
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Debuggers",
+    "Other",
+    "Visualization",
+    "Formatters",
+    "Programming Languages",
+    "Testing"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "go-live-pages.init",
+        "title": "Go Live Pages: Initialize Project",
+        "category": "Go Live Pages"
+      },
+      {
+        "command": "go-live-pages.stop",
+        "title": "Go Live Pages: Stop Server",
+        "category": "Go Live Pages"
+      }
+    ],
+    "configuration": {
+      "title": "Go Live Pages",
+      "properties": {
+        "go-live-pages.autoOpenBrowser": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically open browser when server starts"
+        }
+      }
+    }
+  },
+  "icon": "images/go_live_pages.png",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "compile-go": "cd src/go-server && go build -o live-server.exe && GOOS=linux GOARCH=amd64 go build -o live-server-linux && GOOS=darwin GOARCH=amd64 go build -o live-server-macos && GOOS=darwin GOARCH=arm64 go build -o live-server-macos-arm64",
+    "ensure-binary-permissions": "chmod +x src/go-server/live-server-linux && chmod +x src/go-server/live-server-macos && chmod +x src/go-server/live-server-macos-arm64",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
