@@ -3,7 +3,7 @@
 
 Todas las actualizaciones importantes de la extensión **go-live-server** se documentan aquí siguiendo el formato [Keep a Changelog](http://keepachangelog.com/).
 
-## [0.0.1] - 2025-08-30
+## [1.0.0] - 2025-08-30
 ### Añadido
 - Versión inicial de Go Live Server para VS Code.
 - Servidor web embebido en Go, multiplataforma (Linux, macOS, Windows).
@@ -20,5 +20,12 @@ Todas las actualizaciones importantes de la extensión **go-live-server** se doc
 ### Mejorado
 - Experiencia de desarrollo ágil y moderna, sin necesidad de recargar la página ni reiniciar el servidor.
 - Escalabilidad y rendimiento optimizados para múltiples usuarios concurrentes.
+
+## [1.0.1] - 2025-09-05
+### Corregido
+- Se solucionó un bug crítico relacionado con el manejo de rutas en Windows.
+
+### Ventaja
+- Actualización segura: no se realizaron cambios en la API, por lo que no afecta la compatibilidad ni el uso actual de la extensión.
 
 ---

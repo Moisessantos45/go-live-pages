@@ -1,7 +1,7 @@
 
-# Go Live Server
+# Go Live Pages
 
-Go Live Server es una extensión avanzada para Visual Studio Code que te permite crear un servidor web local ultra eficiente usando Go. Inspirado en Live Server, pero con mejoras clave: renderizado de páginas sin recarga completa (SPA-like), navegación instantánea tipo Vite.js, y comunicación en tiempo real gracias a WebSockets y templates de Go.
+Go Live Pages es una extensión avanzada para Visual Studio Code que te permite crear un servidor web local ultra eficiente usando Go. Inspirado en Live Server, pero con mejoras clave: renderizado de páginas sin recarga completa (SPA-like), navegación instantánea tipo Vite.js, y comunicación en tiempo real gracias a WebSockets y templates de Go.
 
 ---
 
@@ -87,4 +87,4 @@ En resumen, Go Live Server no solo acelera tu flujo de trabajo, sino que tambié
 
 - [Documentación de extensiones VS Code](https://code.visualstudio.com/api)
 
-**¡Disfruta desarrollando con Go Live Server y lleva tu flujo de trabajo al siguiente nivel!**
+**¡Disfruta desarrollando con Go Live Pages y lleva tu flujo de trabajo al siguiente nivel!**
