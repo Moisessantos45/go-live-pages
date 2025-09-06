@@ -154,7 +154,6 @@ h1 {
         <p>Tu servidor de desarrollo está funcionando correctamente.</p>
         <p>Edita este archivo en <code>views/index.html</code> para comenzar.</p>
         
-        <script src="/websocket.js"></script>
     </body>
     </html>
       `;
