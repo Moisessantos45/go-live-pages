@@ -78,10 +78,34 @@ En resumen, Go Live Server no solo acelera tu flujo de trabajo, sino que tambié
 ### 0.0.1
 - Versión inicial: servidor Go embebido, comandos básicos, navegación dinámica y estructura de carpetas.
 
+## [1.0.1] - 2025-09-05
+### Corregido
+- Se solucionó un bug crítico relacionado con el manejo de rutas en Windows.
+
+### Ventaja
+- Actualización segura: no se realizaron cambios en la API, por lo que no afecta la compatibilidad ni el uso actual de la extensión.
+
+## [1.1.0] - 2025-09-06
+### Nuevas funciones en WebSocket
+- Manejo de mensajes `reload-css`: para recarga de CSS
+- Manejo de mensajes `reload-js`: para recarga de JavaScript
+- Manejo de mensajes `reload-img`: para recarga de imágenes
+
+### Nuevas funciones JavaScript
+- `reloadCSS(cssFile)`: Recarga CSS sin refrescar la página
+- `reloadJavaScript(jsFile)`: Maneja recarga de JS
+- `reloadImage(imgFile)`: Recarga imágenes y background-images
+- `reloadCSSinImages(imgFile)`: Función auxiliar para imágenes en CSS
+
 ## Autor y contacto
 
 - GitHub: [Moisessantos45](https://github.com/Moisessantos45)
 - Email: moises.santos.hernandez@proton.me
+
+## Repositorio oficial
+
+Encuentra el código fuente y más información en el repositorio:
+[https://github.com/Moisessantos45/go-live-pages](https://github.com/Moisessantos45/go-live-pages)
 
 ## Más información
 
