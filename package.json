@@ -2,7 +2,7 @@
   "name": "go-live-pages",
   "displayName": "Go Live Pages",
   "description": "Servidor de desarrollo con Go para renderizado dinámico de templates HTML y WebSockets",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "MoisessantosHernandez",
   "author": {
     "name": "mmabitec",
