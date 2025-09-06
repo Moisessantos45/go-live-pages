@@ -28,4 +28,16 @@ Todas las actualizaciones importantes de la extensión **go-live-server** se doc
 ### Ventaja
 - Actualización segura: no se realizaron cambios en la API, por lo que no afecta la compatibilidad ni el uso actual de la extensión.
 
+## [1.1.0] - 2025-09-06
+### Nuevas funciones en WebSocket
+- Manejo de mensajes `reload-css`: para recarga de CSS
+- Manejo de mensajes `reload-js`: para recarga de JavaScript
+- Manejo de mensajes `reload-img`: para recarga de imágenes
+
+### Nuevas funciones JavaScript
+- `reloadCSS(cssFile)`: Recarga CSS sin refrescar la página
+- `reloadJavaScript(jsFile)`: Maneja recarga de JS
+- `reloadImage(imgFile)`: Recarga imágenes y background-images
+- `reloadCSSinImages(imgFile)`: Función auxiliar para imágenes en CSS
+
 ---
